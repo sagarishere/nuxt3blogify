@@ -4,7 +4,7 @@ const image = ref("/images/banner.jpg");
 </script>
 
 <template>
-  <div class="max-w-5xl mx-auto bg-gray-600 shadow-lg overflow-hidden flex flex-col items-center">
+  <div class="max-w-5xl mx-auto bg-gray-600 shadow-lg hover:shadow-indigo-500/40 overflow-hidden flex flex-col items-center">
       <h1 class="text-cyan-100 text-3xl font-bold mb-4 py-4">{{ title }}</h1>
     <img :src="image" alt="Post Image" class="w-full h-96 object-cover" />
     <div class="p-6">

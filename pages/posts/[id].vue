@@ -18,7 +18,7 @@ const setHead = (title) => {
 
 </script>
 <template>
-    <div class="flex flex-col items-center h-screen bg-gray-900">
+     <div class="flex flex-col items-center h-screen bg-gray-900">
         <div v-if="error" class="text-2xl text-white">
             An error occured... {{ error }}
         </div>
