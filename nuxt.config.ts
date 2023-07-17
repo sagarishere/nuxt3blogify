@@ -17,6 +17,6 @@ export default defineNuxtConfig({
     storageKey: 'nuxt-color-mode',
   },
   app: {
-    pageTransition: { name: 'fade', mode: 'out-in'},
+    pageTransition: { name: 'page', mode: 'in-out' },
   }
 })
